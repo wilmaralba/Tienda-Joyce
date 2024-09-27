@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOYCE - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Bienvenida a JOYCE, la tienda de bisutería con un estilo único y femenino. Descubre nuestros collares, aros y esclavas.">
+    <!-- Meta etiquetas para compartir en redes sociales -->
+    <meta property="og:title" content="JOYCE - Bisutería Única y Femenina">
+    <meta property="og:description" content="Descubre nuestros collares, aros y esclavas con un estilo único.">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:url" content="https://www.joyce.com">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo de JOYCE">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section class="inicio">
+        <h2>¡Bienvenida!</h2>
+        <p>Encuentra los mejores artículos de bisutería con un estilo único y femenino.</p>
+        
+        
+        
+        <div class="carousel">
+            <div class="imagenes-tienda">
+                <img class="carousel-image" src="images/img1.png" alt="Imagen 1 de la tienda">
+                <img class="carousel-image" src="images/img2.png" alt="Imagen 2 de la tienda">
+                <img class="carousel-image" src="images/img3.png" alt="Imagen 3 de la tienda">
+                
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+
+        <section class="productos-destacados">
+            <h3>Productos Destacados</h3>
+            <div class="productos-contenedor">
+                <div class="producto">
+                    <h4>Collar de Perlas</h4>
+                    <a href="producto1.html">
+                        <img src="images/producto1.png" alt="Collar de Perlas">
+                    </a>
+                    <p><strong>Precio:</strong> $20.000</p>
+                    <a href="producto1.html">
+                        <button>Ver Más</button>
+                    </a>
+                </div>
+        
+                <div class="producto">
+                    <h4>Aretes de Oro</h4>
+                    <a href="producto2.html">
+                        <img src="images/producto2.png" alt="Aretes de Oro">
+                    </a>
+                    <p><strong>Precio:</strong> $50.000</p>
+                    <a href="producto2.html">
+                        <button>Ver Más</button>
+                    </a>
+                </div>
+        
+                <div class="producto">
+                    <h4>Pulsera Plateada</h4>
+                    <a href="producto3.html">
+                        <img src="images/producto3.png" alt="Pulsera Plateada">
+                    </a>
+                    <p><strong>Precio:</strong> $30.000</p>
+                    <a href="producto3.html">
+                        <button>Ver Más</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+
+    <footer>
+        <ul>
+            <li><a href="mision.html">Misión</a></li>
+            <li><a href="vision.html">Visión</a></li>
+            <li><a href="politicas.html">Políticas</a></li>
+        </ul>
+        <p>&copy; 2024 JOYCE - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
